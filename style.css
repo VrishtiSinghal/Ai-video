@@ -11,6 +11,8 @@ body{
 }
 #status, #number_of_objects{
     font-size: 18px;
+    margin-top: 5px;
+    margin-bottom: 5px;
 }
 .copy_right_footer{
     position: fixed;
@@ -18,15 +20,12 @@ body{
     bottom: 0;
     width: 100%;
     background-color: #f5f5f5;
-    line-height: 3;
+    line-height: 1;
     text-align: center;
 }
 canvas{
-    border: 2px solid white;
+    border: 2px solid rgb(0, 0, 0);
     border-radius: 10px;
-    margin-top: 65px;
+    margin-top: 120px;
     box-shadow: 5px 5px 5px white;
-}
-#status{
-    margin-top: 10px;
 }
